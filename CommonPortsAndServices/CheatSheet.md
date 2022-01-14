@@ -1,20 +1,23 @@
 # Common Ports And Services
 
-| Port Number | Service name 		| Transport protocol | Information																	|
+| Port Number | Service name 		| Transport protocol | Description																	|
 | :---------: | :---------------------: | :----------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------	|
 | 7 	      | Echo 	     		| TCP/UDP      	     | Server echo the host input. Can also be used for relaying ICMP datagrams										|
 | 19	      | Chargen	     		| TCP/UDP	     | Source of byte-stream for debugging/ payload for bandwith measurement										|
-| **20**      | **FTP-transfer**        | **TCP**            | **File Transfer Protocol: Used to tranfser data**      												|
-| **21**      | **FTP-connection**      | **TCP**	     | **File Transfer Protocol: Used to establish connection**												|
-| **22**      | **SSH/SCP**  		| **TCP**	     | **Secure Shell: Secure way to access a computer over the network**										|
+| **20**      | **FTP-transfer**        | **TCP**            | **File Transfer Protocol: Used to tranfser files**      												|
+| **21**      | **FTP-connection**      | **TCP**	     | **File Transfer Protocol: Used to establish connection before file transfer**									|
+| **22**      | **SSH** 		| **TCP**	     | **Secure Shell: Secure way to access a computer over the network 										|
+| 22  	      | SCP 		        | TCP    	     | Secure Copy Protocol: Secure way to transfer files between devices           	                                                                |
+| **22**      | **SFTP**        	| **TCP**            | **SSH File Tranfser Protocol: Secure way to transfer files between devices**    	                                                                |
 | **23**      | **Telnet**   		| **TCP**            | **Insecure way to access a computer over the network**												| 
 | **25**      | **SMTP**     		| **TCP**	     | **Simple Mail Transfer Protocol: Send Mail To People**												|
 | 42          | WINS Replication	| TCP	             | Windows Internet Naming Service: Used in mapping NetBIOS names to IP addresses  									|
 | 43          | WHOIS        	        | TCP                | Port used by the command line program WHOIS to send queries 											|
 | 49          | TACACS      		| TCP/UDP            | Terminal Access Controller Access-Control System: Family of protocols handling remote authentication and related services			|
 | **53**      | **DNS**       		| **TCP/UDP**        | **Domain Name System: IP mapping to domain names. UDP mostly for queries and TCP mostly for zone tranfsers**					|
-| **67-68**   | **DHCP/BOOTP**		| **UDP**	     | **Domain Host Configuration Protocol: Dynamic network configuration & Bootstrap Protocol: Automaticaly assign an IP from a server**		|
-| **69**      | **TFTP**      		|                    |																			|
+| **67-68**   | **DHCP**		| **UDP**	     | **Domain Host Configuration Protocol: Dynamic network configuration for devices inside a LAN**							|
+| 67-68       | BOOTP      	        | TCP                | Bootstrap Protocol: Provides devices with an IP from a configuration server                                                                      |
+| **69**      | **TFTP**      		| **UDP**  	     | **Trivial File Transfer Protocol: Used for transferring files inside a LAN instead of the internet**						|
 | 70          | Gopher        		|                    |																			|
 | 79          | Finger        		|                    |																			|
 | **80**      | **HTTP**       	        |                    |																			|
