@@ -18,10 +18,10 @@
 | **67-68**   | **DHCP**		| **UDP**	     | **Domain Host Configuration Protocol: Dynamic network configuration for devices inside a LAN**							|
 | 67-68       | BOOTP      	        | TCP                | Bootstrap Protocol: Provides devices with an IP from a configuration server                                                                      |
 | **69**      | **TFTP**      		| **UDP**  	     | **Trivial File Transfer Protocol: Used for transferring files inside a LAN instead of the internet**						|
-| 70          | Gopher        		|                    |																			|
-| 79          | Finger        		|                    |																			|
-| **80**      | **HTTP**       	        |                    |																			|
-| 88          | Kerberos                |                    |																			|
+| 70          | Gopher        		| TCP                | Designed for distributing, searching and retrieving documents in IP networks (biggest rival of HTTP in the early years)				|
+| 79          | Finger        		| TCP                | Designed for exchanging human-oriented status and user information (status updates from users in a LAN						|
+| **80**      | **HTTP**       	        | **TCP/UDP**        | **Hypertext Transfer Protocol: application layer protocol in the IP suite model for distributed, collaborative, hypermedia information systems	|
+| 88          | Kerberos                | UDP                | Kerberos is a protocol designed for authentication and security for client/server applications							|
 | 102         | MS Exchange             |                    |																			|
 | **110**     | **POP3**                |                    |																			|
 | 113         | Ident                   |                    |																			|
