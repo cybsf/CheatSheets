@@ -1,5 +1,6 @@
 # Welcome to cybsf/CheatSheets
 - [CommonPortsAndServices](https://github.com/cybsf/CheatSheets/blob/main/CommonPortsAndServices/CheatSheet.md)
-	- xxx
+	- Common ports, related services, transport protocol and description
 - [InternetProtocol](https://github.com/cybsf/CheatSheets/blob/main/CommonPortsAndServices/CheatSheet.md)
-	- yyy
+	- Private IP addresses and subnetting
+-
