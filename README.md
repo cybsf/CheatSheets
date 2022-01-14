@@ -1,3 +1,3 @@
-# Welcome to my cheatsheets!
+# Welcome cybsf/CheatSheets
 
 - 
