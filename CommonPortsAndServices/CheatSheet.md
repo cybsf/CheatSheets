@@ -13,7 +13,7 @@
 | 43          | WHOIS        	        | TCP                | Port used by the command line program WHOIS to send queries 											|
 | 49          | TACACS      		| TCP/UDP            | Terminal Access Controller Access-Control System: Family of protocols handling remote authentication and related services			|
 | **53**      | **DNS**       		| **TCP/UDP**        | **Domain Name System: IP mapping to domain names. UDP mostly for queries and TCP mostly for zone tranfsers**					|
-| **67-68**   | **DHCP/BOOTP**		| **UDP**	     | **Domain Host Configuration Protocol: Dynamic network configuration | Bootstrap Protocol: Automaticaly assign an IP from a server**		|
+| **67-68**   | **DHCP/BOOTP**		| **UDP**	     | **Domain Host Configuration Protocol: Dynamic network configuration & Bootstrap Protocol: Automaticaly assign an IP from a server**		|
 | **69**      | **TFTP**      		|                    |																			|
 | 70          | Gopher        		|                    |																			|
 | 79          | Finger        		|                    |																			|
