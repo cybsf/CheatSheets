@@ -22,13 +22,15 @@
 | 79          | Finger        		| TCP                | Designed for exchanging human-oriented status and user information (status updates from users in a LAN						|
 | **80**      | **HTTP**       	        | **TCP/UDP**        | **Hypertext Transfer Protocol: application layer protocol in the IP suite model for distributed, collaborative, hypermedia information systems	|
 | 88          | Kerberos                | UDP                | Kerberos is a protocol designed for authentication and security for client/server applications							|
-| 102         | MS Exchange             |                    |																			|
-| **110**     | **POP3**                |                    |																			|
-| 113         | Ident                   |                    |																			|
-| 119         | NNTP	                |                    |																			|
-| **123**     | **NTP**                 |                    |																			|
-| 135         | Microsoft RPC           |                    |																			|
-| 137-139     | NetBIOS                 |                    |																			|
+| 102         | MS Exchange             | TCP                | Port used by Microsoft Exchange to communicate with other Message Transfer Agent									|
+| **110**     | **POP3**                | **TCP**            | **Post Office Protocol: Used to retrieve mails from a mailserver**										|
+| 113         | Ident                   | TCP                | Used for user authentication ex. when you try to use a mailserver, the mailserver will first authenticate through port 113 Identd service	|
+| 119         | NNTP	                | TCP                | News Network Transfer Protocol: Used for transporting usenet news articles between news server							|
+| **123**     | **NTP**                 | **UDP**            | Network Time Protocol: Used for clock synchronization between computers 										|
+| 135         | Microsoft RPC           | UDP                | Microsoft Remote Prodecure Call:	Service that allows other systems to discover what servics are advertised on a machine and on which port	|
+| 137	      | NetBIOS Name Service    | UDP                | Network Basic Input/Output System: Name registration and resolution                                                                              |
+| 138	      | NetBIOS Datagram Service| UDP 	             | Network Basic Input/Output System: Destribution service for connectionless communications                                                        |
+| 139	      | NetBIOS Session Service | TCP                | Network Basic Input/Output System: Session service for connection-oriented communications							|
 | **143**     | **IMAP4**               |                    |																			|
 | **161-162** | **SNMP**                |                    |																			|
 | 177         | XDMCP	                |                    |																			|
