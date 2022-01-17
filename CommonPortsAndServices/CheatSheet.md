@@ -1,6 +1,6 @@
 # Common Ports and services
 A list of common ports with their respective services, transport protocol and a brief description.
-## table
+## Table
 
 | Port Number | Service name 		| Transport protocol | Description																	|
 | :---------: | :---------------------: | :----------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------	|
