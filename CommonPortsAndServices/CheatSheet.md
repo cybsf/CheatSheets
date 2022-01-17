@@ -1,3 +1,35 @@
+<style>
+.heatMap {
+    width: 70%;
+    text-align: center;
+}
+.heatMap th {
+background: grey;
+word-wrap: break-word;
+text-align: center;
+}
+.heatMap tr:nth-child(1) { background: red; }
+.heatMap tr:nth-child(2) { background: orange; }
+.heatMap tr:nth-child(3) { background: green; }
+</style>
+
+<div class="heatMap">
+
+| Everything | in this table | is Centered |  and the table will only take up 70% of the screen width  | 
+| -- | -- | -- | -- |
+| This | is | a | Red Row |
+| This | is | an | Orange Row |
+| This | is | a | Green Row |
+
+</div>
+
+
+
+
+
+
+
+
 # Common Ports and services
 A list of common ports with their respective services, transport protocol and a brief description.
 ## Table
@@ -33,7 +65,7 @@ A list of common ports with their respective services, transport protocol and a 
 | 137	      | NetBIOS Name Service    | UDP                | Network Basic Input/Output System: Name registration and resolution                                                                              |
 | 138	      | NetBIOS Datagram Service| UDP 	             | Network Basic Input/Output System: Destribution service for connectionless communications                                                        |
 | 139	      | NetBIOS Session Service | TCP                | Network Basic Input/Output System: Session service for connection-oriented communications							|
-| **143**     | **IMAP4**               |                    |																			|
+| **143**     | **IMAP4**               | TCP                | Internet Message Access Protocol: Used by email clients to retrieve emails from a mail server											|
 | **161-162** | **SNMP**                |                    |																			|
 | 177         | XDMCP	                |                    |																			|
 | 179         | BGP	                |                    |																			|
