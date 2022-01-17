@@ -17,7 +17,8 @@ The **Open Systems Interconnection model or OSI model** is a reference model for
 
 ## Layer 6: Presentation Layer
 
+
 ## Layer 7: Application layer
-This is the closest layer to the end user and represents the application protocols. These protocols facilitate communications between your application and your operating system. An example is
+This is the closest layer to the end user and represents the application protocols. These protocols facilitate communications between your application and your operating system and interacts with other commnication systems. An example is HTTP or Hypertext Transfer Protocol which provides communications from webclient to webserver.
 
 ## Summarizing example
