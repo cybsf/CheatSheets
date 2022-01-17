@@ -1,3 +1,4 @@
+<html>
 <style>
 .heatMap {
     width: 70%;
@@ -22,7 +23,7 @@ text-align: center;
 | This | is | a | Green Row |
 
 </div>
-
+</html>
 
 
 
