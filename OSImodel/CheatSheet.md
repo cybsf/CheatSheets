@@ -5,7 +5,7 @@ A representation of the OSI Model with an explanation and example for each layer
 
 The **Open Systems Interconnection model or OSI model** is a reference model for data communication standards. This model is split in seven layers which are the physical, data link, network, transport, session, presentation and application layer. You can memorize the different layers by using the mnemonic: **P**lease **D**o **N**ot **T**hrow **S**ausage **P**izza **A**way.
 
-![OSI model image](./images/OSImodel.png)
+![OSI model image](./images/OSI_Model.png)
 
 
 ## Layer 1: Physical
