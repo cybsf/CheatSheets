@@ -33,8 +33,8 @@ A list of common ports with their respective services, transport protocol and a 
 | 137	      | NetBIOS Name Service    | UDP                | Network Basic Input/Output System: Name registration and resolution                                                                              |
 | 138	      | NetBIOS Datagram Service| UDP 	             | Network Basic Input/Output System: Destribution service for connectionless communications                                                        |
 | 139	      | NetBIOS Session Service | TCP                | Network Basic Input/Output System: Session service for connection-oriented communications							|
-| **143**     | **IMAP4**               | TCP                | Internet Message Access Protocol: Used by email clients to retrieve emails from a mail server											|
-| **161-162** | **SNMP**                |                    |																			|
+| **143**     | **IMAP4**               | TCP                | Internet Message Access Protocol: Used by email clients to retrieve emails from a mail server							|
+| **161-162** | **SNMP**                | UDP                | Simple Network Management Protocol: Used to collect and organize device information on a network	 						|
 | 177         | XDMCP	                |                    |																			|
 | 179         | BGP	                |                    |																			|
 | 201         | AppleTalk               |                    |																			|
