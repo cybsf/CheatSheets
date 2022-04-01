@@ -13,11 +13,9 @@ const int ledPin = 13
 
 // other variables
 
-
 void setup() {
   pinMode(ledPin, OUTPUT); 	//set pin 13 as output
 }
-
 
 void loop() {
   digitalWrite(ledPin, HIGH); 	// Turn the LED on
@@ -30,9 +28,8 @@ void loop() {
 ### button.ino
 ```
 // THIS PROGRAM TURNS ON THE LED ON DP13 WHEN PRESSING THE BUTTON 
-
-// LOW =	button pushed in
-// HIGH = 	button not pushed in
+// LOW = button pushed in
+// HIGH = button not pushed in
 
 // const variables
 const int ledPin = 13;
@@ -40,7 +37,6 @@ const int buttonPin = 9;
 
 // other variables
 int buttonState = HIGH;
-
 
 void setup() {
   pinMode(ledPin, OUTPUT);		//set LED pin 13 as output
