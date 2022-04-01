@@ -1,11 +1,10 @@
-#Cheatsheet for Python/C++ for Raspberry Pi/Arduino
+# Cheatsheet for Python/C++ for Raspberry Pi/Arduino
 
-##RaspberryPi
+## RaspberryPi
 
-##Arduino
+## Arduino
 
-
-###blink.ino
+### blink.ino
 ```
 void setup() {
   // put your setup code here, to run once:
