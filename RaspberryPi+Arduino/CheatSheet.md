@@ -23,6 +23,7 @@ void loop() {
 ```
 
 ### button.ino
+```
 // LOW = circuit closed = button pushed in
 // HIGH = circuit open = button not pushed in
 
@@ -51,6 +52,5 @@ void loop() {
     digitalWrite(ledPin, LOW);
   }
 }
-
-
+```
 
