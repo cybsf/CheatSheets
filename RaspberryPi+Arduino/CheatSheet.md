@@ -2,6 +2,22 @@
 
 ## RaspberryPi
 
+### serial-bi-pi.py
+```
+# THIS PROGRAM SENDS ON & OFF COMMANDS TO THE SERIAL CONNECTED ARDUINO
+import serial
+import time
+  
+if __name__ == '__main__':
+    ser = serial.Serial('/dev/ttyUSB0',9600, timeout=1)
+    ser.flush()
+  
+    while True:
+        ser.write(b"ON\n")
+        time.sleep(3)
+        ser.write(b"OFF\n")
+        time.sleep(3)
+```
 ## Arduino
 
 ### blink.ino
@@ -57,4 +73,37 @@ void loop() {
   }
 }
 ```
+### serial-bi-ard.ino
+```
+// THIS PROGRAM LISTENS TO THE SERIAL CONNECTION AND TURNS ON THE LED DEPENDING ON THE INPUT
+// LOW = button pushed in
+// HIGH = button not pushed in
 
+// const variables
+const int ledPin = 13;
+
+// other variables
+int buttonState = HIGH;
+String command = "";
+
+void setup() {
+  Serial.begin(9600);               // set serial connection
+  pinMode(ledPin, OUTPUT);          //set LED pin 13 as output
+  delay(2000);
+}
+
+void loop() {
+  if (Serial.available()){
+  command = Serial.readStringUntil('\n');
+  command.trim();
+  
+  if(command.equals("ON")){
+      // turn LED on:
+    digitalWrite(ledPin, HIGH);
+  } else{
+    // turn LED off:
+    digitalWrite(ledPin, LOW);
+  }
+ }
+}
+```
