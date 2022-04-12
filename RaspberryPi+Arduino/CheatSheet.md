@@ -2,7 +2,7 @@
 
 ## RaspberryPi
 
-### serial-bi-pi.py
+### blink_serialCommands_pi2arduino_sender.pi
 ```
 # THIS PROGRAM SENDS ON & OFF COMMANDS TO THE SERIAL CONNECTED ARDUINO
 import serial
@@ -73,7 +73,7 @@ void loop() {
   }
 }
 ```
-### serial-bi-ard.ino
+### blink_serialCommands_pi2arduino_receiver.ino
 ```
 // THIS PROGRAM LISTENS TO THE SERIAL CONNECTION AND TURNS ON THE LED DEPENDING ON THE INPUT
 // LOW = button pushed in
